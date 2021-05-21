@@ -19,7 +19,7 @@ print(termcolor.colored(Shape, color = "green"))
 
 while True:
 	
-	choose = input("1---> Get Emails\n2---> Get Phone Numbers\n===> ")
+	choose = input("1---> Get Emails\n2---> Get Phone Numbers\n===> ").strip()
 	
 	url = input("Enter Web Url: ")
 	
